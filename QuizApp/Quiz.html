@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>QuizApp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="Quiz.js"></script>
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="card p-2">
+           <h2 id="qTitle" class="text-center">Title</h4>
+        </div>
+
+        <div class="">
+            <div id="quizContainer" class="container m-4">
+                <div id="questionContainer" class="mt-4">
+                </div>
+                <div id="optionsContainer" class="mt-4 text-center">
+                    <button type="button" class="btn btn-success" id="submitButton" onclick="submitQuiz()">Submit</button>
+                    <button type="button" class="btn btn-danger" id="cancel" onclick="confirmCancelQuiz()">Cancel</button>
+                </div>  
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

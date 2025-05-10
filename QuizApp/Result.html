@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>QuizApp</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="text-center card mt-8 p-4">
+            <h1>Quiz</h1>
+            <div class="text-center m-4">
+            <table class="table table-bordered" id="quizTable">
+               <tr>
+                    <th>Quiz ID</th>
+                    <th>Quiz Title</th>
+                    <th>Quiz Topic</th>
+                    <th>Your Score</th>
+                    <th>Result</th>
+               </tr>
+                <tr id="quizRow">   
+                    <td id="quizId"></td>
+                    <td id="quizTitle"></td>
+                    <td id="quizTopic"></td>
+                    <td id="score"></td>
+                    <td id="result"></td>
+                </tr>
+            </table>
+                <a href="/index.html">
+                    <button type="button" class="btn btn-primary mt-4" id="cancel" onclick="">Back</button>
+            </div>
+        </div>
+    </div>
+    <script src="Result.js"></script>
+</body>
